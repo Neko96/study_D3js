@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Grouping SVG elements</title>
+		<script src="../jQuery/d3.min.js"></script>
+	</head>
+	
+	<body>
+		<svg style="width:500px; height:500px; border:1px lightgray solid;">
+			<g>
+				<circle r="2"></circle>
+				<text>This circle's Label</text>
+			</g>
+			<g transform="translate(100,50)">
+				<circle r="2"></circle>
+				<text>This circle's Label</text>
+			</g>
+			<g transform="translate(100,400) scale(2.5)">
+				<circle r="2"></circle>
+				<text>This circle's Label</text>
+			</g>
+		</svg>
+	</body>
+</html>
